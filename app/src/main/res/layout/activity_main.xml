@@ -13,7 +13,7 @@
         android:layout_height="250dp"
         android:adjustViewBounds="true"
         android:scaleType="centerCrop"
-        android:src="@drawable/photo"
+        android:src="@drawable/photo2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -53,7 +53,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:lineSpacingExtra="1dp"
-            android:text="I am a Java/ Kotlin Android developer and I am always looking to learn more for professional development and applications and to have a better user experience, I dealt with different projects that contain third party libraries and multiple topics such as Firebase, Kotlin Coroutines,, REST APIs, Room Database, Retrofit and more
+            android:text="Ahmed Halawy | أحمد حلوي
+
+
+            I am a Java/ Kotlin Android developer and I am always looking to learn more for professional development and applications and to have a better user experience, I dealt with different projects that contain third party libraries and multiple topics such as Firebase, Kotlin Coroutines,, REST APIs, Room Database, Retrofit and more
 
 Skills:
 • Languages: Java, Kotlin for android development.
