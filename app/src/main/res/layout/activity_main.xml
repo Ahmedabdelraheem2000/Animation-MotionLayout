@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene4"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/photo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="80dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="#5C8F8F8F"
+        app:cardCornerRadius="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.37" />
+
+    <LinearLayout
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/custom_cardview"
+        android:orientation="vertical"
+        android:paddingStart="15dp"
+        android:paddingTop="45dp"
+        android:paddingEnd="15dp"
+        app:cardPreventCornerOverlap="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="1dp"
+            android:text="I am a Java/ Kotlin Android developer and I am always looking to learn more for professional development and applications and to have a better user experience, I dealt with different projects that contain third party libraries and multiple topics such as Firebase, Kotlin Coroutines,, REST APIs, Room Database, Retrofit and more
+
+Skills:
+• Languages: Java, Kotlin for android development.
+• Architecture Patterns (MVVM).
+• Web Services API: REST Web-service, XML, JSON.
+• Third-Party Libraries: Retrofit 2, Volley, Coroutines, Picasso, Glide, Android Architecture Components, Android
+ • Databases: SQLite, Room
+• Firebase: Firestore, Real-time Database, Messaging, Storage.
+• Software Engineering Tools (Git, GitHub)."
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
